@@ -1,0 +1,60 @@
+#calculator {
+  border : 0.5px solid grey;
+  border-radius: 5px;
+  width: 200px;
+  background-color: rgba(185, 205, 232, 0.352);
+  }
+
+#display {
+  margin: 10px; 
+  margin-bottom: 2px;
+  width: 80%;
+  font-size: 25px;
+  background-color: bisque;
+  border: 1px solid rgb(238, 215, 215);
+  font-family: "Bungee Spice";
+  color: blueviolet;
+  border-radius: 5px;
+}
+
+#buttonContainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  }
+
+.button1 {
+  width: 45px;
+  height: 45px;
+  margin: 5px;
+  background-color: antiquewhite;
+  
+  border-radius: 10px;
+  color: blue;
+  font-family: "Bungee Spice";
+}
+
+.bungee-spice-regular {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#calculator {
+  border: 1px solid;
+  border-color: red;
+  animation: borderColorChange 2s infinite;
+}
+
+@keyframes borderColorChange {
+  0%   { border-color: rgb(197, 24, 24); }
+  25%   { border-color: rgb(180, 151, 19); }
+  50%  { border-color: rgb(12, 51, 149); }
+  75%   { border-color: rgb(148, 14, 169); }
+  100% { border-color: rgb(88, 20, 40); }
+}
+
+.button1 {
+  border: 1px lightcoral ;
+  border-color: rgb(240, 236, 236);
+  animation: borderColorChange 2s infinite;
+}
